@@ -46,6 +46,11 @@ if build_pie_chart_1:
 
     fig.update_traces(textposition='inside', textinfo='percent+label')
 
+    fig.update_layout(
+        autosize=False,
+        width=1000,  # Ajustando el ancho según tus preferencias
+        height=600)  # Ajustando la altura según tus preferencias
+
     st.plotly_chart(fig, use_container_width=True)
 
 # Casilla de verificación
