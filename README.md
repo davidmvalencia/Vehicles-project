@@ -1,12 +1,12 @@
 # Vehicles-project
 
-Sprint 5 - Herramientas de desarrollo de software (Proyecto final)
+Sprint 5 - Herramientas de Desarrollo de Software (Proyecto Final)
 
-Creamos una aplicacion web con Python para generar histogramas y graficos de dispersion utilizando un dataframe con 51,525 vehiculos a la venta en los Estados Unidos. 
+Hemos desarrollado una aplicación web con Python para generar histogramas, gráficos de dispersión y diagramas de pastel utilizando un DataFrame que incluye información de 51,525 vehículos en venta en los Estados Unidos.
 
-Para ello requerimos de las siguientes librerias con sus respectivas versiones:
+Las bibliotecas necesarias, junto con sus respectivas versiones, son:
 
-► Pandas 2.1.4
+► Pandas 1.1.4
 
 ► Plotly-express 0.4.1
 
@@ -14,22 +14,25 @@ Para ello requerimos de las siguientes librerias con sus respectivas versiones:
 
 ► Streamlit 1.31.1
 
+Para interactuar con la aplicación, simplemente hacer clic en la casilla y/o botón según el gráfico que desees generar. Puedes personalizar la selección de barras y puntos según tus preferencias y necesidades.
 
-Para interactuar con la aplicacion es necesario hacer click en la casilla dependiendo del gráfico que se desee generar, se pueden seleccionar a gusto las barras y los puntos en base al gusto o preferencia de lo que se este buscando.
+Los histogramas proporcionan información sobre:
 
-Los histogramas constan de:
+● Marcas y modelos de autos disponibles en relación con su estado y kilometraje.
 
-● Marcas y modelos de los autos disponibles con relación a su estado y kilometraje.
+● Cilindraje del motor en relación con su precio y tipo de vehículo.
 
-● Cilindros de motor con relación a su precio y tipo de vehiculo.
+Los diagramas de dispersión exploran:
+
+● Años de modelo de autos en función de su tipo y precio.
+
+● Kilometraje de autos en función de su condición y precio.
+
+Adicionalmente se incluyeron dos diagramas de pastel para observar las siguientes proporciones:
+
+● Porcentaje de las condiciones de los vehículos existentes.
+
+● Porcentaje de los tipos de vehículos existentes.
 
 
-Los diagramas de dispersión constan de:
-
-● Años de modelo de los autos en base a su tipo y precio.
-
-● Kilometraje de los autos en base a su condicion y precio.
-
-
-Link de aplicación web:
-→ 
+Enlace a la aplicación web: → 
